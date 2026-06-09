@@ -6,6 +6,15 @@ This project reads a PDF document, creates text chunks, generates embeddings, re
 
 ---
 
+## Live Demo
+
+Try the deployed application:
+
+👉 https://huggingface.co/spaces/anand-venugopal/ai-qa-service
+
+---
+
+
 ## Features
 
 * PDF ingestion

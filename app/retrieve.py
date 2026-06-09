@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import re
 
 # load embedding model
-model = SentenceTransformer("multi-qa-mpnet-base-dot-v1")
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # create retrieve function
 def retrieve(query, top_k = 3):

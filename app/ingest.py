@@ -30,7 +30,7 @@ chunks = [chunk.strip() for chunk in chunks if len(chunk.strip()) > 80]
 print(f"chunks: {len(chunks)}")
 
 #load embedding model and convert text into vectors
-model = SentenceTransformer('multi-qa-mpnet-base-dot-v1')
+model = SentenceTransformer('all-MiniLM-L6-v2')
 embeddings = model.encode(chunks, normalize_embeddings = True, show_progress_bar = True)
 
 # store chunk and embedding into PostgreSQL

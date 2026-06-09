@@ -4,7 +4,6 @@ pydantic
 groq
 python-dotenv
 sentence-transformers
-torch
 pypdf
 langchain-text-splitters
 psycopg2-binary 

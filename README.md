@@ -1,4 +1,4 @@
-# 📚 Tell-Tale Heart RAG API
+# AI Q&A Platform - Tell-Tale Heart
 
 A simple Retrieval-Augmented Generation (RAG) system built using FastAPI, PostgreSQL, Sentence Transformers, and Groq.
 
@@ -8,7 +8,7 @@ This project reads a PDF document, creates text chunks, generates embeddings, re
 
 ## Live Demo
 
-Try the deployed application:
+Try the hugging face deployed application:
 
 - Live: https://huggingface.co/spaces/anand-venugopal/ai-qa-service
 - Swagger Docs: https://anand-venugopal-ai-qa-service.hf.space/docs
@@ -46,7 +46,7 @@ Clone repository:
 
 ```bash
 git clone https://github.com/anandvenugopal-tech/ai-qa-service
-cd PROJECT_NAME
+cd ai-qa-service
 ```
 
 Install dependencies:

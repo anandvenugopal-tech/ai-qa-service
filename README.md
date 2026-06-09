@@ -10,7 +10,8 @@ This project reads a PDF document, creates text chunks, generates embeddings, re
 
 Try the deployed application:
 
-👉 https://huggingface.co/spaces/anand-venugopal/ai-qa-service
+Live: https://huggingface.co/spaces/anand-venugopal/ai-qa-service
+Swagger Docs: https://anand-venugopal-ai-qa-service.hf.space/docs
 
 ---
 
